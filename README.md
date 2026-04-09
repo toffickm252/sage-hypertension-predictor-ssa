@@ -40,6 +40,16 @@ as adopted in Ghana's national cardiovascular disease guidelines.
 Built in public. Daily updates on X: @elzer252  
 #ENg30DayChallenge #ENgShipIt
 
+## Progress
+
+Built in public. Daily updates on X: @elzer252
+#ENg30DayChallenge #ENgShipIt
+
 ## Setup
 
-## Instructions will be added as the project starts.
+1. Clone the repo
+2. Create a virtual environment: `python -m venv venv`
+3. Activate: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Mac/Linux)
+4. Install dependencies: `pip install -r requirements.txt`
+5. Download data following instructions in `data/README.md`
+6. Run notebooks in order from the `notebooks/` folder
