@@ -1,0 +1,17 @@
+echo "# Data files - restricted by ICPSR agreement
+data/*.tsv
+data/*.pdf
+data/*.dta
+data/*.sav
+data/*.csv
+data/raw/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Models
+models/*.pkl
+models/*.joblib" > .gitignore
