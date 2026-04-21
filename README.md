@@ -78,25 +78,27 @@ See data/README.md for download instructions.
 
 ## Project Structure
 
+```
 sage-hypertension-predictor-ssa/
 ├── README.md
 ├── requirements.txt
 ├── data/
-│ └── README.md
+│   └── README.md
 ├── notebooks/
-│ ├── 01_data_ingestion.ipynb
-│ ├── 02_preprocessing.ipynb
-│ ├── 03_feature_engineering.ipynb
-│ ├── 04_eda.ipynb
-│ └── 05_model_training.ipynb
+│   ├── 01_data_ingestion.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_eda.ipynb
+│   └── 05_model_training.ipynb
 ├── models/
-│ ├── hypertension_model.joblib
-│ └── scaler.joblib
+│   ├── hypertension_model.joblib
+│   └── scaler.joblib
 ├── app/
-│ ├── app.py
-│ └── requirements.txt
+│   ├── app.py
+│   └── requirements.txt
 └── docs/
-└── findings_summary.md
+    └── findings_summary.md
+```
 
 ## Setup
 
